@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(234, 228, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+#wrapper {
+  width: 600;
+  height: 400;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#catImg img {
+  width: 600px;
+  height: 400px;
+}
+
+.buttonWrapper {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  padding: 1rem;
+  color: black;
+}

@@ -2,7 +2,6 @@ type Cats {
   id: ID
   name: String
   url: String
-  description: String
 }
 
 type Query {
@@ -11,5 +10,5 @@ type Query {
 }
 
 type Mutation {
-  createCat(name: String, description: String): Cats
+  createCat(name: String, url: String): Cats
 }
