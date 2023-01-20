@@ -7,11 +7,17 @@ body {
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  
+font-family: 'Roboto', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+
 }
+
 #wrapper {
   width: 600;
   height: 400;
-  border: 1px solid black;
+  border: 2px solid black;
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,9 +32,38 @@ body {
   width: 600px;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 1rem;
 }
 
 h1 {
   padding: 1rem;
   color: black;
+  font-size: 40px;
+}
+button{
+  width: 80px;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+ 
+}
+
+
+
+#pTag{
+  font-size: 20px;
+
+}
+
+
+
+h3{
+  padding-top: 1rem;
+}
+form {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
